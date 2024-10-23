@@ -1,1 +1,85 @@
 /* aqui va el estilo de mi CSS */
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  height: 100vh;
+  background-color: #111729;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  padding: 50px 30px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4b89ff;
+}
+
+.hero {
+  text-align: center;
+  padding: 150px 20px;
+}
+
+h1 {
+  color: #ffff;
+  font-size: 48px;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+.highlight {
+  background: linear-gradient(to right, #f43f5e, #f97316, #facc15);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+p {
+  color: #ffff;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.container {
+  text-align: center;
+  background-color: #111729;
+  padding: 50px;
+}
+
+.titule-app {
+  color: aliceblue;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#url-input {
+  padding: 15px;
+  width: 300px;
+  border-radius: 15px 0 0 15px;
+  border: 2px solid #4b89ff;
+  outline: none;
+  background-color: #030617;
+  color: #ffff;
+  font-size: 16px;
+}
+
+#generate-btn {
+  padding: 15px 30px;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  background-color: #4b89ff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
