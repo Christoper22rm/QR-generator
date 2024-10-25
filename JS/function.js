@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Code for index.html
-  if (window.location.pathname.includes("index.html")) {
+  // Verifica si estamos en la página de inicio
+  if (window.location.pathname === "/" || window.location.pathname.includes("index.html")) {
     const generateBtn = document.getElementById("generate-btn");
     if (generateBtn) {
       generateBtn.addEventListener("click", function () {
@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
   }
-
-  // Code for qrcode.html
+  
+  // Código para la generación de QR en qrcode.html
   if (window.location.pathname.includes("qrcode.html")) {
     const urlParams = new URLSearchParams(window.location.search);
     const data = decodeURIComponent(urlParams.get("data"));
