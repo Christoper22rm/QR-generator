@@ -1,35 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/qrcodeStyles.css" />
     <title>QRKyque</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</head>
-<body>
+    <script src="./JS/function.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+      integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
     <nav>
-        <div class="logo">QRCode</div>
-        <div class="links">
-          <a href="https://github.com/Christoper22rm" target="_blank"><img src="./Img/github.png" alt="Github"></a>
-          <a href="https://www.linkedin.com/in/christoper-enrique-calvachi-carabajo/" target="_blank"><img src="./Img/linkedin.png" alt="Linkedin"></a>
-        </div>
-      </nav>
+      <div class="logo">QRCode</div>
+      <div class="links">
+        <a href="https://github.com/Christoper22rm" target="_blank"
+          ><img src="./Img/github.png" alt="Github"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/christoper-enrique-calvachi-carabajo/"
+          target="_blank"
+          ><img src="./Img/linkedin.png" alt="Linkedin"
+        /></a>
+      </div>
+    </nav>
 
     <div class="container">
-        <div class="qr-container">
-            <div id="img-qr"></div>
-        </div>
-        <div class="buttons">
-            <button class="download-btn">
-                <img src="img/download-icon.png" alt="Download">
-                Download
-            </button>
-            <button class="share-btn">
-                <img src="img/share-icon.png" alt="Share">
-                Share
-            </button>
-        </div>
+      <div class="qr-container">
+        <div id="img-qr"></div>
+      </div>
+      <div class="buttons">
+        <button class="download-btn" id="download-btn">
+          <img src="./Img/descargar.png" alt="download" />
+          Download
+        </button>
+        <button class="share-btn" id="share-btn">
+          <img src="./Img/compartir.png" alt="share" />
+          Share
+        </button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
